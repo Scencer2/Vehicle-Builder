@@ -331,6 +331,8 @@ class Cli {
             'Turn right',
             'Turn left',
             'Reverse',
+            'Tow vehicle',
+            'Wheelie',
             'Select or create another vehicle',
             'Exit',
           ],
@@ -392,6 +394,21 @@ class Cli {
           for (let i = 0; i < this.vehicles.length; i++) {
             if (this.vehicles[i].vin === this.selectedVehicleVin) {
               this.vehicles[i].reverse();
+            }
+          }
+        } else if (answers.action ==='Tow vehicle') {
+          // find the selected vehicle and tow it
+          for (let i = 0; i < this.vehicles.length; i++) {
+            if (this.vehicles[i].vin === this.selectedVehicleVin && this.vehicles[i] instanceof Truck){
+              this.findVehicleToTow(this.vehicles[i] as Truck);
+              return;
+            }
+          }
+        } else if (answers.action === 'Wheelie') {
+          for (let i = 0; i < this.vehicles.length; i++) {
+            if (this.vehicles[i].vin === this.selectedVehicleVin && this.vehicles[i] instanceof Motorbike) {
+              (this.vehicles[i] as Motorbike).wheelie();
+              return;
             }
           }
         }
