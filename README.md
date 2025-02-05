@@ -1,6 +1,3 @@
-# 1
-  ![License](https://img.shields.io/badge/License-None.svg)
-
   ## Description
   This is a command line application that allows the user to select an existing or create a new vechicle. The user can then select different actions to perform on the varius vehicles.
   
@@ -9,9 +6,7 @@
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
   - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation
