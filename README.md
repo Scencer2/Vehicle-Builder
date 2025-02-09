@@ -8,7 +8,7 @@
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Questions](#questions)
-  
+  - [Walkthrough Video](#walkthrough)
   ## Installation
   Clone the repository to your local machine, then in your terminal run: npm start.
   
@@ -23,3 +23,7 @@
   
   - GitHub: [[agf](https://github.com/agf)](https://github.com/Scencer2)
   - Email: Scencer2@yahoo.com
+
+  ## Walkthrough Video
+  https://youtu.be/Y22f4gc4r94
+  
