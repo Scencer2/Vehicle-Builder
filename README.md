@@ -21,7 +21,7 @@
   ## Questions
   If you have any questions about the project, please feel free to contact me:
   
-  - GitHub: [[agf](https://github.com/agf)](https://github.com/Scencer2)
+  - GitHub: [(https://github.com/agf)](https://github.com/Scencer2)
   - Email: Scencer2@yahoo.com
 
   ## Walkthrough Video
